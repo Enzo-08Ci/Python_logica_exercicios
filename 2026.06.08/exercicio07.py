@@ -14,8 +14,8 @@ Utilize o operador `and` para verificar se:
  - Caso contrário: "Acesso negado."
 '''
 
-usuario = input("Digite o login: ")
-senha = input("Digite a senha: ")
+usuario = "admin"
+senha = "1234"
 
 if usuario == "admin" and senha == "1234":
     print("Acesso permitido.")
