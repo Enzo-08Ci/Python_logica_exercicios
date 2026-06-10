@@ -19,3 +19,13 @@ ou
 
 "Não tem direito ao desconto."
 '''
+
+# Crie as variáveis:
+idade = 65
+estudante = False
+
+# Utilize o operador `or` para verificar essa condição.
+if idade >= 60 or estudante:
+    print("Tem direito ao desconto.")
+else:
+    print("Não tem direito ao desconto.")

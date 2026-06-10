@@ -19,3 +19,13 @@ ou
 
 "Entrada negada."
 '''
+
+# Crie as variáveis:
+idade = 20
+possui_convite = True
+
+# Utilize o operador `and` dentro de uma estrutura `if`.
+if idade >= 18 and possui_convite:  
+    print("Entrada autorizada.")
+else:
+    print("Entrada negada.")

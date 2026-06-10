@@ -14,10 +14,12 @@ Utilize o operador `and` para verificar se:
  - Caso contrário: "Acesso negado."
 '''
 
+# Crie as variáveis:
 usuario = "admin"
 senha = "1234"
 
+# Utilize o operador `and` para verificar se:
 if usuario == "admin" and senha == "1234":
-    print("Acesso permitido.")
+    print("\n\nAcesso permitido.\n\n")
 else:
-    print ("Acesso negado.")
+    print ("\n\nAcesso negado.\n\n")

@@ -11,7 +11,7 @@ Verifique se o nome "Pedro" está presente na lista.
 '''
 
 nomes = ["Ana", "Carlos", "Marina", "Pedro", "Julia"]
-if "Rosa" in nomes:
+if "Pedro" in nomes:
     print("Nome encontrado.")
 else:
     print("Nome não encontrado.")
